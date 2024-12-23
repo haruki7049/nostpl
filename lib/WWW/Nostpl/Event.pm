@@ -3,7 +3,9 @@ package WWW::Nostpl::Event;
 use strict;
 use warnings;
 
-use WWW::Nostpl::Types qw( Kind TimeStamp );
+use FindBin;
+use lib "$FindBin::Bin/lib";
+
 use Moose qw( has );
 
 has 'id' => (
