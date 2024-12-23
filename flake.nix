@@ -42,6 +42,7 @@
           devShells.default = pkgs.mkShell {
             nativeBuildInputs = [
               pkgs.perl
+              pkgs.perlPackages.Moose
             ];
           };
         };
