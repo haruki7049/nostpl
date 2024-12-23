@@ -9,31 +9,31 @@ use lib "$FindBin::Bin/lib";
 use Moose qw( has );
 
 has 'id' => (
-    is => 'ro',
+    is  => 'ro',
     isa => 'Str',
 );
 
 has 'content' => (
-    is => 'ro',
+    is  => 'ro',
     isa => 'Str',
 );
 
 has 'sig' => (
-    is => 'ro',
+    is  => 'ro',
     isa => 'Str',
 );
 
 has 'kind' => (
-    is => 'ro',
+    is  => 'ro',
     isa => 'Kind',
 );
 
 has 'created_at' => (
-    is => 'ro',
+    is  => 'ro',
     isa => 'TimeStamp',
 );
 
 has 'tags' => (
-    is => 'ro',
+    is  => 'ro',
     isa => 'ArrayRef[Str]',
 );
