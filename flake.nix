@@ -43,6 +43,7 @@
             nativeBuildInputs = [
               pkgs.perl
               pkgs.perlPackages.Moose
+              pkgs.perlPackages.ExtUtilsMakeMaker
             ];
           };
         };
