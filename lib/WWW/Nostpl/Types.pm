@@ -6,7 +6,7 @@ use warnings;
 use Moose::Util::TypeConstraints qw( subtype as where );
 
 use Exporter 'import';
-our @EXPORT = qw( Kind );
+our @EXPORT = qw( Kind TimeStamp );
 
 subtype 'Kind', as 'Int', where { 0 <= $_ and $_ <= 65535 };
 
